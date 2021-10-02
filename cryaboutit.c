@@ -10,7 +10,7 @@
 
 
 int main() {
-
+    system("sudo apt-get install openssl libssl-dev");
     /* Linked list structures */
     List *files = NULL;
     List *encrypted = NULL;
